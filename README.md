@@ -16,6 +16,8 @@ Test Automation Project: Amazon Checkout Process to demonstrate page object mode
 
 
 #### Steps to clone execute the tests
-https://github.com/Adhikari1996/Amazonproject.git
-run testng.xml file
-changes file setting on project
+https://github.com/Adhikari1996/Amazonproject.git<br/>
+run testng.xml file<br/>
+changes file setting on  local machine <br/>
+
+
