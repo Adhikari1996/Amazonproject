@@ -8,6 +8,9 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.safari.SafariDriver;
 
 import com.amazon.util.TestUtil;
 
@@ -36,6 +39,16 @@ public class TestBase {
 		if (browserName.contains("Chrome")) {
 			System.setProperty("webdriver.chrome.driver", "C:\\driver\\chromedriver.exe");
 			driver = new ChromeDriver();
+		}else if(browserName.contains("Firefox")) {
+			System.setProperty("webdriver.gecko.driver","C:\\driver\\geckodriver.exe");
+			driver = new FirefoxDriver();
+		}else if(browserName.contains("Edge")){
+			System.setProperty("webdriver.edge.driver", "C:\\driver\\msedgedriver.exe");
+			driver = new EdgeDriver();
+		}else if(browserName.contains("Safari")){
+			System.setProperty("webdriver.safari.driver","C:\\safaridriver.exe");
+			driver = new SafariDriver();
+	
 		}
 		driver.get(prop.getProperty("url"));
 		driver.manage().window().maximize();
