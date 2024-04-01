@@ -3,18 +3,19 @@ Test Automation Project: Amazon Checkout Process to demonstrate page object mode
 
 ### Used Dependency : Java Maven
 
+### window - 8.1 , Driver ChromeDriver 109
+
 ### libraries used Selenium , TestNG
 
-Covered senario -
-. Add to product to the cart
-. Update Phone no
-. Add multiple items
-. Remove items
-. Used POM framwork best practice.
+ #### Covered senario -
+ . Add to product to the cart <br />
+ . Update Phone no <br />
+ . Add multiple items <br />
+ . Remove items <br />
+ . Used POM framwork best practice. <br />
 
 
-
-Steps to clone execute the tests
-git clone https://github.com/naveenanimation20/PageObjectModel
-cd PageObjectModel
-mvn clean test
+#### Steps to clone execute the tests
+https://github.com/Adhikari1996/Amazonproject.git
+run testng.xml file
+changes file setting on project
