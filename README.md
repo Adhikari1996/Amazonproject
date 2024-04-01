@@ -1,9 +1,18 @@
-Page Object model Test Automation Project: Amazon Checkout Process using Selenium with Java, TestNG and Maven-
-This is a sample project to demonstrate what is page object model framework and how it can used in selenium to automate any application. TestNG is used as test framework.
+## Page Object model Test Automation Project: Amazon Checkout Process using Selenium with Java, TestNG and Maven-
+Test Automation Project: Amazon Checkout Process to demonstrate page object model framework. TestNG is used as test framework.
 
-Dependency Java Maven
+### Used Dependency : Java Maven
 
-###libraries used Selenium TestNG log4j Extent Reports
+### libraries used Selenium , TestNG
+
+Covered senario -
+. Add to product to the cart
+. Update Phone no
+. Add multiple items
+. Remove items
+. Used POM framwork best practice.
+
+
 
 Steps to clone execute the tests
 git clone https://github.com/naveenanimation20/PageObjectModel
