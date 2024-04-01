@@ -48,7 +48,6 @@ public class TestBase {
 		}else if(browserName.contains("Safari")){
 			System.setProperty("webdriver.safari.driver","C:\\safaridriver.exe");
 			driver = new SafariDriver();
-	
 		}
 		driver.get(prop.getProperty("url"));
 		driver.manage().window().maximize();
